@@ -14,7 +14,6 @@ gem 'listen', '3.1.5'
 group :development, :test do
   gem 'sqlite3',     '1.3.12'
   gem 'byebug',      '9.0.6'
-  gem 'web-console', '3.4.0'
   gem 'spring',      '2.0.0'
 end
 
@@ -27,4 +26,8 @@ end
 group :production do
   gem 'pg',             '0.19.0'
   gem 'rails_12factor', '0.0.3'
+end
+
+group :development do
+  gem 'web-console', '3.4.0'
 end
